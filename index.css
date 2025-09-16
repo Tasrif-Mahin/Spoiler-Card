@@ -1,0 +1,26 @@
+:root {
+    --spoiler-color: #000;
+    --bg-color: #e8eaed;
+}
+
+p {
+  line-height: 1.5em;
+} 
+
+.post {
+    background-color: var(--bg-color) ;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.spoiler {
+    background-color: var(--spoiler-color);
+    color: var(--spoiler-color);
+    transition: all 0.5s ease-in;
+}
+
+.spoiler:hover {
+    background-color: initial;
+    color: initial;
+}
